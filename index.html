@@ -7,7 +7,7 @@
   <meta name="description" content="Prestigious AI education for Grades 6 to 10. Integrated with CBSE, ICSE, and State Boards. Featuring 24/7 Social AI Tutorial, immersive Offline AI Labs, and 1-on-1 Certified Mentorship." />
   <meta name="keywords" content="AI for school kids, K-12 AI foundation, CBSE AI curriculum, ICSE robotics, offline AI lab Bangalore, certified AI mentors, nammaweb" />
 
-  <!-- Fonts -->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@500;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -125,6 +125,7 @@
 </head>
 <body class="bg-radial-luxury bg-cyber-grid antialiased selection:bg-brand-teal selection:text-white min-h-screen">
 
+  <!-- Top Announcement Bar -->
   <div class="bg-gradient-to-r from-brand-charcoal via-brand-surface to-brand-charcoal border-b border-brand-teal/20 text-xs py-2 px-4">
     <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
       <div class="flex items-center gap-2 text-slate-300">
@@ -145,28 +146,18 @@
     </div>
   </div>
 
+  <!-- Header -->
   <header class="sticky top-0 z-40 backdrop-blur-xl bg-brand-obsidian/85 border-b border-brand-teal/20 transition-all duration-300">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
       
-      <!-- Brand Logo & Identity -->
+      <!-- Brand Logo Container with Embedded Zero-Dependency Base64 Data URI -->
       <a href="#" class="flex items-center gap-3.5 group">
-        <div class="relative w-11 h-11 flex items-center justify-center p-1.5 rounded-xl bg-brand-surface border border-brand-teal/40 shadow-glow-teal group-hover:border-brand-tealGlow transition duration-300">
-          <!-- Exact Vector Representation of User's Interlocking Diagonal Knot Logo -->
-          <svg class="w-full h-full text-brand-tealLight group-hover:text-brand-tealGlow transition-colors duration-300" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <!-- Top Left Diamond Perimeter -->
-            <path d="M43 32.5 L31.5 19 L6.5 44 L31.5 69 L43 57.5" stroke="currentColor" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
-            <!-- Bottom Left Inner Turn -->
-            <path d="M14 56.5 L31.5 74 L43 62.5" stroke="currentColor" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
-            <!-- Central Interlocking Crossing Band -->
-            <path d="M25 61 L75 11" stroke="currentColor" stroke-width="4.8" stroke-linecap="round"/>
-            <path d="M31.5 67.5 L81.5 17.5" stroke="currentColor" stroke-width="4.8" stroke-linecap="round"/>
-            <!-- Top Right Corner Perimeter -->
-            <path d="M57 42.5 L68.5 31 L93.5 56 L68.5 81 L57 69.5" stroke="currentColor" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M86 43.5 L68.5 26 L57 37.5" stroke="currentColor" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
-            <!-- Return Base Links -->
-            <path d="M25 61 L14 72 L31.5 89.5 L81.5 39.5 L70.5 28.5" stroke="currentColor" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M53 67 L68.5 82.5 L86 65" stroke="currentColor" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
+        <div class="relative w-11 h-11 flex-shrink-0 flex items-center justify-center p-1 rounded-xl bg-white border border-brand-teal/40 shadow-glow-teal group-hover:border-brand-tealGlow transition duration-300 overflow-hidden" style="width: 44px; height: 44px;">
+          <img 
+            src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1280 1280'><rect width='1280' height='1280' fill='white'/><path d='M416 384L548 248L240 560L560 880L416 1024L96 704Z' fill='none' stroke='%230a6369' stroke-width='60' stroke-linecap='round' stroke-linejoin='round'/><path d='M864 896L732 1032L1040 720L720 400L864 256L1184 576Z' fill='none' stroke='%230a6369' stroke-width='60' stroke-linecap='round' stroke-linejoin='round'/><path d='M240 560L720 80L1040 400L560 880Z' fill='none' stroke='%230a6369' stroke-width='60' stroke-linecap='round' stroke-linejoin='round'/><path d='M416 1024L896 544' fill='none' stroke='%230a6369' stroke-width='60' stroke-linecap='round'/></svg>"
+            alt="nammaweb logo" 
+            class="w-full h-full object-contain"
+          />
         </div>
         <div class="flex flex-col">
           <div class="flex items-center gap-2">
@@ -177,7 +168,7 @@
         </div>
       </a>
 
-      <!-- Desktop Navigation Menu -->
+      <!-- Desktop Nav -->
       <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-slate-300">
         <a href="#curriculum" class="hover:text-brand-tealGlow transition">Curriculum (6-10)</a>
         <a href="#pillars" class="hover:text-brand-tealGlow transition">Offline AI Labs</a>
@@ -186,7 +177,7 @@
         <a href="#blog" class="hover:text-brand-tealGlow transition">AI Insights</a>
       </nav>
 
-      <!-- CTA & WhatsApp Direct Trigger -->
+      <!-- Desktop CTAs -->
       <div class="hidden lg:flex items-center gap-3">
         <button onclick="openBookingModal('General Counseling')" class="px-4 py-2.5 rounded-xl text-xs font-semibold uppercase tracking-wider text-slate-200 hover:text-white bg-brand-surface hover:bg-brand-surfaceLight border border-brand-teal/30 transition">
           Book Counseling
@@ -196,13 +187,13 @@
         </a>
       </div>
 
-      <!-- Mobile Hamburger Button -->
+      <!-- Mobile Button -->
       <button id="mobileMenuBtn" class="md:hidden p-2.5 text-slate-300 hover:text-white rounded-lg bg-brand-surface border border-brand-teal/30">
         <i class="fa-solid fa-bars-staggered text-lg"></i>
       </button>
     </div>
 
-    <!-- Mobile Dropdown Menu -->
+    <!-- Mobile Dropdown -->
     <div id="mobileMenu" class="hidden md:hidden bg-brand-surface/95 border-b border-brand-teal/30 px-6 py-5 flex flex-col gap-4 text-sm font-medium">
       <a href="#curriculum" onclick="toggleMobileMenu()" class="text-slate-200 hover:text-brand-tealGlow">Curriculum (Grade 6-10)</a>
       <a href="#pillars" onclick="toggleMobileMenu()" class="text-slate-200 hover:text-brand-tealGlow">Offline AI Labs & 24/7 Tutorial</a>
@@ -220,13 +211,12 @@
     </div>
   </header>
 
+  <!-- Hero Section -->
   <section class="relative pt-12 pb-24 lg:pt-20 lg:pb-32 overflow-hidden">
     <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[650px] h-[650px] bg-brand-teal/20 rounded-full blur-[140px] pointer-events-none -z-10 animate-pulse-slow"></div>
     <div class="absolute top-1/3 right-10 w-[350px] h-[350px] bg-brand-gold/10 rounded-full blur-[120px] pointer-events-none -z-10"></div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <!-- Board Accreditation Pill -->
       <div class="flex justify-center mb-6">
         <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full glass-card border border-brand-teal/40 shadow-glow-teal">
           <span class="flex h-2 w-2 relative">
@@ -239,7 +229,6 @@
         </div>
       </div>
 
-      <!-- Main Headings -->
       <div class="text-center max-w-4xl mx-auto">
         <h1 class="font-display text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.12]">
           Nurturing Tomorrow's Architects of Intelligence: <br/>
@@ -252,7 +241,6 @@
           The premier computational intelligence crucible for young minds. Blending <span class="text-brand-tealGlow font-medium">24/7 Social AI Tutorial guidance</span>, hands-on <span class="text-brand-tealGlow font-medium">Offline Physical AI Labs</span>, and high-impact guidance under <span class="text-brand-tealGlow font-medium">Stanford, IIT &amp; Industry Certified Mentors</span>.
         </p>
 
-        <!-- CTAs -->
         <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
           <button onclick="openBookingModal('Hero Fast Track')" class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-brand-tealGlow via-brand-tealLight to-brand-teal font-display font-bold text-sm tracking-wide text-brand-obsidian uppercase hover:brightness-110 shadow-glow-teal transition duration-300 flex items-center justify-center gap-3">
             <span>Apply For Cohort 2026-27</span>
@@ -265,7 +253,6 @@
           </a>
         </div>
 
-        <!-- Trust Badges -->
         <div class="mt-12 pt-8 border-t border-brand-teal/15 grid grid-cols-2 md:grid-cols-4 gap-4 text-left">
           <div class="flex items-center gap-3 p-3 rounded-xl bg-brand-surface/40 border border-brand-teal/20">
             <i class="fa-solid fa-microchip text-brand-tealGlow text-xl"></i>
@@ -297,30 +284,432 @@
           </div>
         </div>
       </div>
-
     </div>
   </section>
 
+  <!-- Curriculum Section -->
+  <section id="curriculum" class="py-20 bg-brand-charcoal/60 border-y border-brand-teal/20 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs font-mono tracking-widest text-brand-tealGlow uppercase px-3 py-1 rounded-full bg-brand-teal/10 border border-brand-teal/30">Pedagogical Framework</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-bold text-white mt-3">Tailored Tracks: Grade 6 through Grade 10</h2>
+        <p class="text-slate-300 mt-3 text-sm sm:text-base">Meticulously mapped to the National Education Policy (NEP 2020), CBSE Artificial Intelligence subject codes, and ICSE Robotics standards.</p>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-center gap-2 mb-10" id="gradeTabs">
+        <button onclick="selectGrade(6)" id="tab-6" class="grade-tab px-5 py-2.5 rounded-xl font-mono text-sm font-semibold transition bg-brand-tealLight text-brand-obsidian shadow-glow-teal">Grade 6: AI Explorer</button>
+        <button onclick="selectGrade(7)" id="tab-7" class="grade-tab px-5 py-2.5 rounded-xl font-mono text-sm font-semibold transition bg-brand-surface text-slate-300 hover:text-white border border-brand-teal/30">Grade 7: Data Thinker</button>
+        <button onclick="selectGrade(8)" id="tab-8" class="grade-tab px-5 py-2.5 rounded-xl font-mono text-sm font-semibold transition bg-brand-surface text-slate-300 hover:text-white border border-brand-teal/30">Grade 8: Neural Novice</button>
+        <button onclick="selectGrade(9)" id="tab-9" class="grade-tab px-5 py-2.5 rounded-xl font-mono text-sm font-semibold transition bg-brand-surface text-slate-300 hover:text-white border border-brand-teal/30">Grade 9: AI Builder (CBSE 417)</button>
+        <button onclick="selectGrade(10)" id="tab-10" class="grade-tab px-5 py-2.5 rounded-xl font-mono text-sm font-semibold transition bg-brand-surface text-slate-300 hover:text-white border border-brand-teal/30">Grade 10: Deep Tech Fellow</button>
+      </div>
+
+      <div id="gradeContentCard" class="glass-card rounded-3xl p-6 sm:p-10 border border-brand-teal/30 shadow-2xl relative overflow-hidden">
+        <!-- Rendered via selectGrade() -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Pillars Section -->
+  <section id="pillars" class="py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-mono tracking-widest text-brand-gold uppercase px-3 py-1 rounded-full bg-brand-gold/10 border border-brand-gold/30">High-Level Training Ecosystem</span>
+        <h2 class="font-display text-3xl sm:text-5xl font-extrabold text-white mt-3">The Nammaweb Advantage</h2>
+        <p class="text-slate-300 mt-4 text-base">We bridge digital theoretical mastery with tangible offline hardware experimentation.</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div class="glass-card glass-card-hover rounded-3xl p-8 sm:p-10 flex flex-col justify-between relative overflow-hidden border border-brand-teal/30 group">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-brand-teal/20 border border-brand-teal/40 flex items-center justify-center text-brand-tealGlow text-2xl mb-6 shadow-glow-teal">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <div class="inline-block font-mono text-xs text-brand-tealGlow mb-2 font-semibold">ALWAYS AVAILABLE PEER &amp; TUTOR</div>
+            <h3 class="font-display text-2xl sm:text-3xl font-bold text-white mb-4">24/7 Social AI Tutorial</h3>
+            <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
+              Students never get stuck on homework or code debugging. Our dedicated, safe, child-moderated Social AI assistant operates round-the-clock inside our private student hub.
+            </p>
+            <ul class="mt-6 space-y-3 text-sm text-slate-300">
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-circle-check text-brand-tealGlow mt-1"></i>
+                <span><strong>Instant Code Diagnostics:</strong> Real-time guidance for Python, Scratch AI, and logical debugging.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-circle-check text-brand-tealGlow mt-1"></i>
+                <span><strong>CBSE / ICSE Syllabus Companion:</strong> Step-by-step Socratic explanations without giving direct exam answers.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-circle-check text-brand-tealGlow mt-1"></i>
+                <span><strong>Collaborative AI Hackathons:</strong> Dedicated peer breakout groups moderated by verified mentors.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="mt-8 pt-6 border-t border-brand-teal/20 flex items-center justify-between">
+            <div class="flex items-center gap-2 text-xs font-mono text-slate-400">
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              99.8% Student Query Resolution Rate
+            </div>
+            <button onclick="openBookingModal('Social AI Demo')" class="text-xs font-bold text-brand-tealGlow hover:underline uppercase tracking-wider">
+              Explore Demo →
+            </button>
+          </div>
+        </div>
+
+        <div class="glass-card glass-card-hover rounded-3xl p-8 sm:p-10 flex flex-col justify-between relative overflow-hidden border border-brand-gold/30 group">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-brand-gold/10 border border-brand-gold/40 flex items-center justify-center text-brand-gold text-2xl mb-6 shadow-glow-gold">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <div class="inline-block font-mono text-xs text-brand-gold mb-2 font-semibold">TANGIBLE PHYSICAL SENSING &amp; ROBOTICS</div>
+            <h3 class="font-display text-2xl sm:text-3xl font-bold text-white mb-4">State-of-the-Art Offline AI Labs</h3>
+            <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
+              True artificial intelligence cannot be mastered solely behind a browser screen. Our Offline AI Labs offer physical hands-on immersion with real edge computing hardware and micro-controllers.
+            </p>
+            <ul class="mt-6 space-y-3 text-sm text-slate-300">
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-circle-check text-brand-gold mt-1"></i>
+                <span><strong>Edge Compute Stations:</strong> Raspberry Pi 5, Google Coral Edge TPU, and Jetson Nano workstations.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-circle-check text-brand-gold mt-1"></i>
+                <span><strong>Autonomous Vision Bots:</strong> Physical rovers equipped with LiDAR and OpenCV camera arrays.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-circle-check text-brand-gold mt-1"></i>
+                <span><strong>Sensor Synthesis &amp; IoT:</strong> Building smart environmental sensors and face recognition doors.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="mt-8 pt-6 border-t border-brand-gold/20 flex items-center justify-between">
+            <div class="flex items-center gap-2 text-xs font-mono text-slate-400">
+              <i class="fa-solid fa-location-dot text-brand-gold"></i>
+              Weekend Offline Batches in Bengaluru Hubs
+            </div>
+            <button onclick="openBookingModal('Offline Lab Visit')" class="text-xs font-bold text-brand-gold hover:underline uppercase tracking-wider">
+              Reserve Lab Slot →
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mentors Section -->
+  <section id="mentors" class="py-20 bg-brand-charcoal/70 border-t border-brand-teal/20 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+        <div>
+          <span class="text-xs font-mono tracking-widest text-brand-tealGlow uppercase px-3 py-1 rounded-full bg-brand-teal/10 border border-brand-teal/30">Faculty &amp; Research Advisors</span>
+          <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-white mt-3">High Certified AI Mentors Program</h2>
+          <p class="text-slate-300 mt-2 max-w-xl text-sm sm:text-base">
+            Your child learns directly from distinguished practitioners, alumni of prestigious institutions, and vetted industry engineers who bring actual AI production insights.
+          </p>
+        </div>
+        <div>
+          <button onclick="openBookingModal('Mentor 1-on-1 Consultation')" class="px-5 py-3 rounded-xl bg-brand-surface border border-brand-teal/40 text-brand-tealGlow font-semibold text-xs tracking-wider uppercase hover:bg-brand-surfaceLight transition">
+            Book 1-on-1 Mentor Evaluation
+          </button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="glass-card glass-card-hover rounded-3xl p-6 border border-brand-teal/25 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-4 mb-5">
+              <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-brand-teal to-brand-tealGlow p-0.5">
+                <div class="w-full h-full rounded-2xl bg-brand-surface flex items-center justify-center font-display font-bold text-xl text-brand-tealGlow">
+                  AK
+                </div>
+              </div>
+              <div>
+                <h4 class="font-display text-lg font-bold text-white">Dr. Arvind Krishna</h4>
+                <p class="text-xs text-brand-tealGlow font-mono">Lead AI Scientist &amp; Ex-IISc Fellow</p>
+                <div class="flex items-center gap-1 text-amber-400 text-xs mt-1">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <span class="text-slate-400 ml-1 text-[11px]">(4.97)</span>
+                </div>
+              </div>
+            </div>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+              12+ years in Machine Learning and Computer Vision. Mentor to over 300+ students who achieved top honors in National Science &amp; AI Olympiads.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-brand-teal/20 flex items-center justify-between text-xs">
+            <span class="text-slate-400 font-mono">Grades: 8th, 9th &amp; 10th</span>
+            <span class="text-emerald-400 font-semibold"><i class="fa-solid fa-badge-check"></i> Certified Mentor</span>
+          </div>
+        </div>
+
+        <div class="glass-card glass-card-hover rounded-3xl p-6 border border-brand-teal/25 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-4 mb-5">
+              <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-brand-gold to-amber-200 p-0.5">
+                <div class="w-full h-full rounded-2xl bg-brand-surface flex items-center justify-center font-display font-bold text-xl text-brand-gold">
+                  SM
+                </div>
+              </div>
+              <div>
+                <h4 class="font-display text-lg font-bold text-white">Suhana Mukherjee</h4>
+                <p class="text-xs text-brand-gold font-mono">Stanford Certified AI Educator</p>
+                <div class="flex items-center gap-1 text-amber-400 text-xs mt-1">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <span class="text-slate-400 ml-1 text-[11px]">(4.99)</span>
+                </div>
+              </div>
+            </div>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+              Specialist in Generative AI pedagogy for middle schoolers. Pioneer of interactive game-based deep learning models for Grade 6–8 students.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-brand-teal/20 flex items-center justify-between text-xs">
+            <span class="text-slate-400 font-mono">Grades: 6th, 7th &amp; 8th</span>
+            <span class="text-emerald-400 font-semibold"><i class="fa-solid fa-badge-check"></i> Certified Mentor</span>
+          </div>
+        </div>
+
+        <div class="glass-card glass-card-hover rounded-3xl p-6 border border-brand-teal/25 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-4 mb-5">
+              <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-sky-400 to-brand-tealGlow p-0.5">
+                <div class="w-full h-full rounded-2xl bg-brand-surface flex items-center justify-center font-display font-bold text-xl text-sky-400">
+                  RR
+                </div>
+              </div>
+              <div>
+                <h4 class="font-display text-lg font-bold text-white">Rohit Raghavan</h4>
+                <p class="text-xs text-sky-400 font-mono">Robotics Lead &amp; IIT Madras Alum</p>
+                <div class="flex items-center gap-1 text-amber-400 text-xs mt-1">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <span class="text-slate-400 ml-1 text-[11px]">(4.95)</span>
+                </div>
+              </div>
+            </div>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+              Directs our Physical Offline AI Labs. Hardware design specialist who equips K-12 students to build camera-tracked rovers and neural detectors.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-brand-teal/20 flex items-center justify-between text-xs">
+            <span class="text-slate-400 font-mono">Grades: 7th to 10th</span>
+            <span class="text-emerald-400 font-semibold"><i class="fa-solid fa-badge-check"></i> Certified Mentor</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="py-24 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-mono tracking-widest text-brand-tealGlow uppercase px-3 py-1 rounded-full bg-brand-teal/10 border border-brand-teal/30">Transparent Indian Pricing</span>
+        <h2 class="font-display text-3xl sm:text-5xl font-extrabold text-white mt-3">Select Your Child's Journey</h2>
+        <p class="text-slate-300 mt-4 text-base">
+          Choose from 30 Days, 60 Days, or 125 Days intensive immersion. All plans include 24/7 Social AI Tutorial and Certified Mentorship.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+        <div class="glass-card rounded-3xl p-8 border border-brand-teal/30 flex flex-col justify-between transition hover:border-brand-tealGlow">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="font-mono text-xs text-brand-tealGlow uppercase font-bold tracking-wider px-3 py-1 rounded-full bg-brand-teal/15 border border-brand-teal/30">Foundation Sprint</span>
+              <span class="text-xs text-slate-400 font-mono">Quick Immersion</span>
+            </div>
+            <h3 class="font-display text-2xl font-bold text-white">30 Days Intensive</h3>
+            <p class="text-slate-300 text-xs mt-2">Perfect primer for building algorithmic fluency and foundational AI literacy.</p>
+            <div class="mt-6 mb-6">
+              <div class="flex items-baseline gap-1">
+                <span class="text-2xl font-bold text-white">₹</span>
+                <span class="text-5xl font-display font-extrabold text-white">9,999</span>
+                <span class="text-slate-400 text-xs font-mono">/ total</span>
+              </div>
+              <p class="text-[11px] text-emerald-400 mt-1 font-mono">Includes taxes • 100% money-back guarantee within 7 days</p>
+            </div>
+            <ul class="space-y-3 text-xs sm:text-sm text-slate-300 mb-8">
+              <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-brand-tealGlow"></i> 30 Days Core Curriculum (Grade 6-10)</li>
+              <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-brand-tealGlow"></i> 24/7 Social AI Tutorial Access</li>
+              <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-brand-tealGlow"></i> 2 Hands-on Virtual AI Capstone Projects</li>
+              <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-brand-tealGlow"></i> Certified Mentor Doubt Clearing (Bi-weekly)</li>
+              <li class="flex items-center gap-2.5 text-slate-500"><i class="fa-solid fa-xmark text-slate-600"></i> Offline Lab Hardware Access (Virtual Only)</li>
+            </ul>
+          </div>
+          <button onclick="openBookingModal('30 Days Foundation Sprint - ₹9,999')" class="w-full py-3.5 rounded-xl bg-brand-surface hover:bg-brand-surfaceLight border border-brand-teal/40 text-white font-bold text-xs uppercase tracking-wider transition">
+            Enroll for 30 Days (₹9,999)
+          </button>
+        </div>
+
+        <div class="glass-card rounded-3xl p-8 border-2 border-brand-tealGlow shadow-glow-teal flex flex-col justify-between relative transform lg:-translate-y-2">
+          <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-brand-tealGlow to-brand-teal text-brand-obsidian font-display font-extrabold text-[11px] uppercase tracking-widest shadow-md">
+            MOST POPULAR CHOICE
+          </div>
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="font-mono text-xs text-brand-tealGlow uppercase font-bold tracking-wider px-3 py-1 rounded-full bg-brand-teal/20 border border-brand-teal/40">Builder Track</span>
+              <span class="text-xs text-emerald-400 font-mono">Recommended</span>
+            </div>
+            <h3 class="font-display text-2xl font-bold text-white">60 Days Builder</h3>
+            <p class="text-slate-300 text-xs mt-2">Comprehensive deep dive with supervised model creation and live deployment.</p>
+            <div class="mt-6 mb-6">
+              <div class="flex items-baseline gap-1">
+                <span class="text-2xl font-bold text-white">₹</span>
+                <span class="text-5xl font-display font-extrabold text-brand-tealGlow">18,499</span>
+                <span class="text-slate-400 text-xs font-mono">/ total</span>
+              </div>
+              <p class="text-[11px] text-brand-gold mt-1 font-mono">No-cost EMI starting @ ₹6,166/month</p>
+            </div>
+            <ul class="space-y-3 text-xs sm:text-sm text-slate-300 mb-8">
+              <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-brand-tealGlow"></i> <strong>All 30 Days Features Included</strong></li>
+              <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-brand-tealGlow"></i> <strong>4 Offline AI Lab Weekend Passes</strong></li>
+              <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-brand-tealGlow"></i> 24/7 Social AI Tutor with Unlimited Solves</li>
+              <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-brand-tealGlow"></i> 1-on-1 Dedicated Certified Mentor Reviews</li>
+              <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-brand-tealGlow"></i> Global Certified Junior AI Engineer Credential</li>
+            </ul>
+          </div>
+          <button onclick="openBookingModal('60 Days Builder - ₹18,499')" class="w-full py-4 rounded-xl bg-gradient-to-r from-brand-tealGlow to-brand-tealLight text-brand-obsidian font-display font-extrabold text-xs uppercase tracking-wider hover:brightness-110 shadow-glow-teal transition">
+            Enroll for 60 Days (₹18,499)
+          </button>
+        </div>
+
+        <div class="glass-card rounded-3xl p-8 border border-brand-gold/40 flex flex-col justify-between transition hover:border-brand-gold">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="font-mono text-xs text-brand-gold uppercase font-bold tracking-wider px-3 py-1 rounded-full bg-brand-gold/15 border border-brand-gold/30">Mastery Fellowship</span>
+              <span class="text-xs text-brand-gold font-mono">Prestige Tier</span>
+            </div>
+            <h3 class="font-display text-2xl font-bold text-white">125 Days Fellowship</h3>
+            <p class="text-slate-300 text-xs mt-2">The ultimate transformation for students preparing for high-profile hackathons and olympiads.</p>
+            <div class="mt-6 mb-6">
+              <div class="flex items-baseline gap-1">
+                <span class="text-2xl font-bold text-white">₹</span>
+                <span class="text-5xl font-display font-extrabold text-brand-gold">34,999</span>
+                <span class="text-slate-400 text-xs font-mono">/ total</span>
+              </div>
+              <p class="text-[11px] text-emerald-400 mt-1 font-mono">No-cost EMI starting @ ₹5,833/month (6 mos)</p>
+            </div>
+            <ul class="space-y-3 text-xs sm:text-sm text-slate-300 mb-8">
+              <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-brand-gold"></i> <strong>Full 125 Days Flagship Curriculum</strong></li>
+              <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-brand-gold"></i> <strong>Unlimited Offline AI Lab Access + Kit</strong></li>
+              <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-brand-gold"></i> Exclusive Hardware Kit shipped to your home</li>
+              <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-brand-gold"></i> Weekly 1-on-1 Certified Mentorship</li>
+              <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-brand-gold"></i> Research Paper / Patent Drafting Guidance</li>
+            </ul>
+          </div>
+          <button onclick="openBookingModal('125 Days Fellowship - ₹34,999')" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-brand-gold to-brand-goldMuted text-brand-obsidian font-display font-bold text-xs uppercase tracking-wider hover:brightness-110 transition">
+            Enroll for 125 Days (₹34,999)
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog / Insights Section -->
+  <section id="blog" class="py-20 bg-brand-charcoal/50 border-t border-brand-teal/20 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+        <div>
+          <span class="text-xs font-mono tracking-widest text-brand-tealGlow uppercase px-3 py-1 rounded-full bg-brand-teal/10 border border-brand-teal/30">nammaweb Knowledge Base</span>
+          <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-white mt-3">Insights for Progressive Parents</h2>
+          <p class="text-slate-300 mt-2 text-sm sm:text-base">Authoritative guides on modern school AI curricula, NEP standards, and future careers.</p>
+        </div>
+        <div class="text-xs font-mono text-slate-400">
+          <i class="fa-solid fa-newspaper text-brand-tealLight mr-1"></i> Updated for Academic Year 2026-27
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <article class="glass-card rounded-2xl overflow-hidden border border-brand-teal/20 flex flex-col justify-between group hover:border-brand-tealGlow transition duration-300">
+          <div class="p-6">
+            <div class="flex items-center justify-between text-xs font-mono text-slate-400 mb-3">
+              <span class="text-brand-tealGlow font-semibold">ACADEMIC FOUNDATION</span>
+              <span>5 Min Read</span>
+            </div>
+            <h3 class="font-display text-xl font-bold text-white group-hover:text-brand-tealGlow transition">
+              Why Grade 6–10 is the Golden Age for AI Foundations
+            </h3>
+            <p class="text-slate-300 text-xs sm:text-sm mt-3 leading-relaxed">
+              Neuroscience confirms that abstract computational reasoning crystallizes between ages 11 and 16. Discover why rote coding is obsolete.
+            </p>
+          </div>
+          <div class="px-6 pb-6 pt-2 border-t border-brand-teal/15 flex items-center justify-between">
+            <span class="text-xs text-slate-400 font-mono">By Dr. Arvind Krishna</span>
+            <button onclick="readArticle('golden-age')" class="text-xs font-bold text-brand-tealGlow hover:text-white transition">Read Full Article →</button>
+          </div>
+        </article>
+
+        <article class="glass-card rounded-2xl overflow-hidden border border-brand-teal/20 flex flex-col justify-between group hover:border-brand-tealGlow transition duration-300">
+          <div class="p-6">
+            <div class="flex items-center justify-between text-xs font-mono text-slate-400 mb-3">
+              <span class="text-brand-gold font-semibold">BOARD SYLLABUS</span>
+              <span>6 Min Read</span>
+            </div>
+            <h3 class="font-display text-xl font-bold text-white group-hover:text-brand-gold transition">
+              CBSE Skill Subject 417 &amp; ICSE AI Curriculum Roadmap
+            </h3>
+            <p class="text-slate-300 text-xs sm:text-sm mt-3 leading-relaxed">
+              A comprehensive breakdown of how our modules integrate seamlessly with school examinations, ensuring student scores improve in academic boards.
+            </p>
+          </div>
+          <div class="px-6 pb-6 pt-2 border-t border-brand-teal/15 flex items-center justify-between">
+            <span class="text-xs text-slate-400 font-mono">By Suhana Mukherjee</span>
+            <button onclick="readArticle('curriculum-roadmap')" class="text-xs font-bold text-brand-gold hover:text-white transition">Read Full Article →</button>
+          </div>
+        </article>
+
+        <article class="glass-card rounded-2xl overflow-hidden border border-brand-teal/20 flex flex-col justify-between group hover:border-brand-tealGlow transition duration-300">
+          <div class="p-6">
+            <div class="flex items-center justify-between text-xs font-mono text-slate-400 mb-3">
+              <span class="text-emerald-400 font-semibold">PEDAGOGY INSIGHT</span>
+              <span>4 Min Read</span>
+            </div>
+            <h3 class="font-display text-xl font-bold text-white group-hover:text-emerald-400 transition">
+              Offline AI Labs vs Pure Virtual Learning: The Tangible Edge
+            </h3>
+            <p class="text-slate-300 text-xs sm:text-sm mt-3 leading-relaxed">
+              Why touching sensors, debugging camera pipelines on Raspberry Pis, and watching real robots navigate delivers 3.8x higher retention.
+            </p>
+          </div>
+          <div class="px-6 pb-6 pt-2 border-t border-brand-teal/15 flex items-center justify-between">
+            <span class="text-xs text-slate-400 font-mono">By Rohit Raghavan</span>
+            <button onclick="readArticle('offline-labs')" class="text-xs font-bold text-emerald-400 hover:text-white transition">Read Full Article →</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Article Modal -->
+  <div id="articleModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-brand-obsidian/90 backdrop-blur-md hidden">
+    <div class="glass-card max-w-2xl w-full rounded-3xl p-6 sm:p-8 border border-brand-teal/40 max-h-[85vh] overflow-y-auto">
+      <div class="flex items-center justify-between pb-4 border-b border-brand-teal/20 mb-6">
+        <span id="articleTag" class="text-xs font-mono font-bold text-brand-tealGlow px-3 py-1 rounded-full bg-brand-teal/20"></span>
+        <button onclick="closeArticleModal()" class="text-slate-400 hover:text-white text-xl">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <h3 id="articleTitle" class="font-display text-2xl font-bold text-white mb-4"></h3>
+      <div id="articleBody" class="text-slate-300 text-sm sm:text-base space-y-4 leading-relaxed"></div>
+      <div class="mt-8 pt-6 border-t border-brand-teal/20 flex justify-end">
+        <button onclick="closeArticleModal()" class="px-5 py-2 rounded-xl bg-brand-surface border border-brand-teal/40 text-xs font-mono uppercase text-slate-200">
+          Close Article
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
   <footer class="bg-brand-obsidian border-t border-brand-teal/25 pt-16 pb-12 text-slate-400">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-brand-teal/20">
         
-        <!-- Brand Col -->
         <div class="lg:col-span-2">
           <div class="flex items-center gap-3.5 mb-4">
-            <div class="w-10 h-10 flex items-center justify-center p-1.5 rounded-xl bg-brand-surface border border-brand-teal/40 shadow-glow-teal">
-              <!-- Exact Matching Footer Vector Logo -->
-              <svg class="w-full h-full text-brand-tealLight" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M43 32.5 L31.5 19 L6.5 44 L31.5 69 L43 57.5" stroke="currentColor" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M14 56.5 L31.5 74 L43 62.5" stroke="currentColor" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M25 61 L75 11" stroke="currentColor" stroke-width="4.8" stroke-linecap="round"/>
-                <path d="M31.5 67.5 L81.5 17.5" stroke="currentColor" stroke-width="4.8" stroke-linecap="round"/>
-                <path d="M57 42.5 L68.5 31 L93.5 56 L68.5 81 L57 69.5" stroke="currentColor" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M86 43.5 L68.5 26 L57 37.5" stroke="currentColor" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M25 61 L14 72 L31.5 89.5 L81.5 39.5 L70.5 28.5" stroke="currentColor" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M53 67 L68.5 82.5 L86 65" stroke="currentColor" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
+            <div class="w-10 h-10 flex-shrink-0 flex items-center justify-center p-1 rounded-xl bg-white border border-brand-teal/40 shadow-glow-teal overflow-hidden" style="width: 40px; height: 40px;">
+              <img 
+                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1280 1280'><rect width='1280' height='1280' fill='white'/><path d='M416 384L548 248L240 560L560 880L416 1024L96 704Z' fill='none' stroke='%230a6369' stroke-width='60' stroke-linecap='round' stroke-linejoin='round'/><path d='M864 896L732 1032L1040 720L720 400L864 256L1184 576Z' fill='none' stroke='%230a6369' stroke-width='60' stroke-linecap='round' stroke-linejoin='round'/><path d='M240 560L720 80L1040 400L560 880Z' fill='none' stroke='%230a6369' stroke-width='60' stroke-linecap='round' stroke-linejoin='round'/><path d='M416 1024L896 544' fill='none' stroke='%230a6369' stroke-width='60' stroke-linecap='round'/></svg>"
+                alt="nammaweb logo" 
+                class="w-full h-full object-contain"
+              />
             </div>
             <div>
               <span class="font-display font-extrabold text-2xl text-white">nammaweb</span>
@@ -393,11 +782,281 @@
           <a href="mailto:info@nammaweb.com" class="hover:text-brand-tealGlow font-mono">info@nammaweb.com</a>
         </div>
       </div>
-
     </div>
   </footer>
 
+  <!-- WhatsApp Floating Widget -->
+  <div class="fixed bottom-6 right-6 z-50 flex flex-col items-end">
+    <div id="whatsappPopupBalloon" class="mb-3 w-72 sm:w-80 glass-card rounded-2xl p-4 border border-brand-teal/40 shadow-2xl transition-all duration-300 transform scale-100 origin-bottom-right">
+      <div class="flex items-center justify-between pb-2 border-b border-brand-teal/20 mb-2.5">
+        <div class="flex items-center gap-2">
+          <div class="relative">
+            <div class="w-8 h-8 rounded-full bg-emerald-700 flex items-center justify-center text-white text-xs font-bold">
+              NW
+            </div>
+            <span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-emerald-400 border-2 border-brand-obsidian"></span>
+          </div>
+          <div>
+            <p class="text-xs font-bold text-white">nammaweb AI Counselor</p>
+            <p class="text-[10px] text-emerald-400 font-mono">Online • Grade 6–10 Help</p>
+          </div>
+        </div>
+        <button onclick="closeWhatsappBalloon()" class="text-slate-400 hover:text-white text-xs">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <p class="text-xs text-slate-300 mb-3 leading-relaxed">
+        Namaskara! Have queries regarding the <strong class="text-white">AI Genius Foundation</strong>, CBSE/ICSE alignment, or Offline Lab batches? Let's chat on WhatsApp!
+      </p>
+
+      <a href="https://wa.me/917204248002?text=Hello%20nammaweb!%20I%20am%20looking%20for%20admission%20details%20for%20the%20AI%20Genius%20K-12%20program%20(Grade%206-10)." target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-xs flex items-center justify-center gap-2 transition shadow-md">
+        <i class="fa-brands fa-whatsapp text-sm"></i>
+        <span>Chat Now (+91 7204248002)</span>
+      </a>
+    </div>
+
+    <button onclick="toggleWhatsappBalloon()" class="w-14 h-14 rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white shadow-2xl flex items-center justify-center text-2xl transition-all duration-300 hover:scale-110 active:scale-95 relative group" aria-label="WhatsApp Support">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-red-500 text-white text-[9px] font-bold flex items-center justify-center animate-pulse">1</span>
+    </button>
+  </div>
+
+  <!-- Booking Modal -->
+  <div id="bookingModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-brand-obsidian/90 backdrop-blur-md hidden">
+    <div class="glass-card max-w-lg w-full rounded-3xl p-6 sm:p-8 border border-brand-teal/40 shadow-2xl relative">
+      <button onclick="closeBookingModal()" class="absolute top-5 right-5 text-slate-400 hover:text-white text-lg">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="flex items-center gap-3 mb-5">
+        <div class="w-10 h-10 rounded-xl bg-brand-teal/20 border border-brand-teal/40 flex items-center justify-center text-brand-tealGlow">
+          <i class="fa-solid fa-calendar-check text-lg"></i>
+        </div>
+        <div>
+          <h3 class="font-display text-xl font-bold text-white">Enrollment &amp; Counseling</h3>
+          <p class="text-xs text-brand-tealGlow font-mono" id="modalPlanSubtitle">Direct dispatch to WhatsApp (+91 7204248002)</p>
+        </div>
+      </div>
+
+      <form id="enrollmentForm" onsubmit="handleEnrollmentSubmit(event)" class="space-y-4">
+        <div>
+          <label class="block text-xs font-mono text-slate-300 mb-1">Parent / Guardian Name</label>
+          <input type="text" id="parentName" required placeholder="e.g. Rajesh Sharma" class="w-full px-4 py-2.5 rounded-xl bg-brand-surface border border-brand-teal/30 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-brand-tealGlow" />
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-mono text-slate-300 mb-1">Student Grade</label>
+            <select id="studentGrade" class="w-full px-3 py-2.5 rounded-xl bg-brand-surface border border-brand-teal/30 text-white text-sm focus:outline-none focus:border-brand-tealGlow">
+              <option value="Grade 6">Grade 6</option>
+              <option value="Grade 7">Grade 7</option>
+              <option value="Grade 8">Grade 8</option>
+              <option value="Grade 9">Grade 9 (CBSE 417)</option>
+              <option value="Grade 10">Grade 10</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-mono text-slate-300 mb-1">School Board</label>
+            <select id="studentBoard" class="w-full px-3 py-2.5 rounded-xl bg-brand-surface border border-brand-teal/30 text-white text-sm focus:outline-none focus:border-brand-tealGlow">
+              <option value="CBSE">CBSE</option>
+              <option value="ICSE">ICSE</option>
+              <option value="State Board">State Board</option>
+              <option value="IGCSE / Other">IGCSE / Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-mono text-slate-300 mb-1">Preferred Program Duration</label>
+          <select id="programDuration" class="w-full px-3 py-2.5 rounded-xl bg-brand-surface border border-brand-teal/30 text-white text-sm focus:outline-none focus:border-brand-tealGlow">
+            <option value="30 Days Intensive (₹9,999)">30 Days Intensive (₹9,999)</option>
+            <option value="60 Days Builder (₹18,499) - Popular" selected>60 Days Builder (₹18,499) - Popular</option>
+            <option value="125 Days Fellowship (₹34,999)">125 Days Fellowship (₹34,999)</option>
+            <option value="Free Demo / Counseling Session">Free Demo / Diagnostic Counseling</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-xs font-mono text-slate-300 mb-1">Your WhatsApp Mobile Number</label>
+          <input type="tel" id="parentPhone" required placeholder="e.g. 9876543210" pattern="[0-9]{10}" class="w-full px-4 py-2.5 rounded-xl bg-brand-surface border border-brand-teal/30 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-brand-tealGlow" />
+        </div>
+
+        <button type="submit" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-brand-tealGlow to-brand-teal font-display font-bold text-xs uppercase tracking-wider text-brand-obsidian hover:brightness-110 shadow-glow-teal transition flex items-center justify-center gap-2 mt-4">
+          <i class="fa-brands fa-whatsapp text-base"></i>
+          <span>Send Booking to WhatsApp (7204248002)</span>
+        </button>
+
+        <p class="text-[11px] text-center text-slate-500 font-mono">
+          Redirects to WhatsApp with pre-filled application details. No spam guarantee.
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
   <script>
+    const curriculumData = {
+      6: {
+        title: "Grade 6: AI Explorer Track",
+        tagline: "Cultivating Computational Intuition & Creative Logic",
+        boardBadge: "CBSE Middle School & ICSE Aligned",
+        topics: [
+          { name: "How Computers 'Think'", desc: "Rule-based vs learning systems explained through games." },
+          { name: "Scratch for Neural Concepts", desc: "Block-based visual coding of image classifiers and gesture games." },
+          { name: "Introduction to Ethics & AI", desc: "Digital citizenship, privacy, and understanding deepfakes." },
+          { name: "Offline AI Lab Project 1", desc: "Constructing an ultrasonic obstacle avoiding rover in the physical lab." }
+        ],
+        tools: ["Scratch 3.0 AI Extensions", "Teachable Machine", "Micro:bit Robotics"],
+        capstone: "Smart Pet Emotion Detector using live webcam input."
+      },
+      7: {
+        title: "Grade 7: Data Thinker Track",
+        tagline: "Mastering Patterns, Datasets & Algorithmic Design",
+        boardBadge: "NEP Experiential Learning Standard",
+        topics: [
+          { name: "Data Representations & Sets", desc: "How images, sounds, and text transform into numerical matrices." },
+          { name: "Visual Python Introduction", desc: "Syntax essentials: loops, logic, and visual turtle simulations." },
+          { name: "Computer Vision 101", desc: "Edge detection, color filtration, and pixel neighborhood mathematics." },
+          { name: "Offline AI Lab Project 2", desc: "Smart classroom light switch governed by light level sensors." }
+        ],
+        tools: ["Python 3.12 Core", "Jupyter Notebooks", "OpenCV Basics"],
+        capstone: "Automated attendance counter using simple facial bounding boxes."
+      },
+      8: {
+        title: "Grade 8: Neural Novice Track",
+        tagline: "Demystifying Artificial Neural Networks & Weights",
+        boardBadge: "Bridge to Secondary AI Specialization",
+        topics: [
+          { name: "The Perceptron & Neuron", desc: "Math concepts (weights, bias, activation) illustrated without fear." },
+          { name: "Natural Language Processing (NLP)", desc: "Tokenization, sentiment analysis, and chat systems." },
+          { name: "Predictive Analytics", desc: "Building linear trend predictors for weather and cricket analytics." },
+          { name: "Offline AI Lab Project 3", desc: "Voice-activated robotic claw powered by local edge hardware." }
+        ],
+        tools: ["Python Pandas", "MediaPipe Hands", "Edge TPU Accelerators"],
+        capstone: "Sign language interpreter translating finger shapes to speech."
+      },
+      9: {
+        title: "Grade 9: AI Builder (CBSE Skill Subject 417)",
+        tagline: "Direct Alignment with Official CBSE AI Examination Code 417",
+        boardBadge: "100% CBSE & ICSE Exam Ready",
+        topics: [
+          { name: "CBSE Code 417 Part A & B", desc: "Employability skills + AI Project Cycle (Scoping, Data, Modeling, Evaluation)." },
+          { name: "Statistical Machine Learning", desc: "Decision Trees, K-Means clustering, and Confusion Matrix metrics." },
+          { name: "Convolutional Networks (CNNs)", desc: "Feature maps, kernels, and multi-class image identification." },
+          { name: "Offline AI Lab Project 4", desc: "Autonomous self-parking rover executing lane tracking via OpenCV." }
+        ],
+        tools: ["Scikit-Learn", "OpenCV 4", "Streamlit UI", "CBSE Exemplars"],
+        capstone: "Medical leaf pathology scanner for agricultural crop disease."
+      },
+      10: {
+        title: "Grade 10: Deep Tech Fellow",
+        tagline: "Production-Grade AI, Edge Deployments & Olympiad Mentorship",
+        boardBadge: "CBSE Class 10 Board Distinction & Hackathons",
+        topics: [
+          { name: "Advanced Computer Vision & YOLO", desc: "Real-time multi-object tracking and bounding box regression." },
+          { name: "Transformer Architecture Demystified", desc: "Attention mechanisms, fine-tuning lightweight LLMs for specific tasks." },
+          { name: "Model Deployment & Web APIs", desc: "Wrapping models in FastAPI and serving lightweight browser clients." },
+          { name: "Offline AI Lab Capstone", desc: "Full Edge AI smart CCTV node on Raspberry Pi 5 with local inference." }
+        ],
+        tools: ["PyTorch Lightning", "YOLOv8", "Raspberry Pi 5", "HuggingFace"],
+        capstone: "Autonomous smart campus navigation robot with obstacle override."
+      }
+    };
+
+    const blogArticles = {
+      'golden-age': {
+        tag: 'Academic Foundation',
+        title: 'Why Grade 6–10 is the Golden Age for AI Foundations',
+        body: `
+          <p>Over the last decade, computer science education in schools was limited to typing tutorials, MS Office, and syntax drilling. However, modern neurocognitive research proves that between ages 11 and 16 (Grades 6 to 10), adolescents transition rapidly into the Piagetian 'Formal Operational' stage.</p>
+          <p>During this golden window, young students possess the exact cognitive neuroplasticity required to comprehend abstract multi-dimensional systems—which happens to be the mathematical bedrock of Artificial Neural Networks.</p>
+          <p>When students learn AI at this stage through intuitive visuals and physical lab experimentation, they do not just learn to code—they develop superior algorithmic thinking, mathematical appreciation, and critical resilience. At nammaweb, our certified mentors ensure this journey is uplifting, ethical, and fun.</p>
+        `
+      },
+      'curriculum-roadmap': {
+        tag: 'Board Syllabus',
+        title: 'CBSE Skill Subject 417 & ICSE AI Curriculum 2026 Roadmap',
+        body: `
+          <p>The Central Board of Secondary Education (CBSE) introduced Artificial Intelligence (Subject Code 417) as an elective skill subject for Class 9 and 10, while the ICSE board and various State Boards have initiated comprehensive robotics and computational curriculums under NEP 2020 guidelines.</p>
+          <p>However, most conventional schools lack high-end physical hardware labs and certified research mentors to guide students through the intricacies of the AI Project Cycle, Confusion Matrix evaluations, and live computer vision models.</p>
+          <p>The nammaweb AI Genius K-12 Foundation synchronizes directly with textbook units while propelling students into hands-on lab experiments. Students systematically score top marks in board exams while simultaneously assembling an impressive portfolio of tangible AI creations.</p>
+        `
+      },
+      'offline-labs': {
+        tag: 'Pedagogy Insight',
+        title: 'Offline AI Labs vs Pure Virtual Learning: The Tangible Edge',
+        body: `
+          <p>While online learning platforms democratized access to video lectures, pure screen-based programming leaves a significant gap when dealing with real-world sensor data, environmental noise, and physical computing limitations.</p>
+          <p>In our dedicated Bengaluru Offline AI Labs, students physically connect camera lenses, flash microcontrollers, configure Edge TPUs (Tensor Processing Units), and witness how slight lighting variations affect machine vision models.</p>
+          <p>This tactile sensory feedback cycle cements problem-solving tenacity. When a student sees an actual physical robot steer accurately based on code they wrote and trained, confidence skyrockets in ways no passive screen can ever replicate.</p>
+        `
+      }
+    };
+
+    function selectGrade(grade) {
+      document.querySelectorAll('.grade-tab').forEach(btn => {
+        btn.classList.remove('bg-brand-tealLight', 'text-brand-obsidian', 'shadow-glow-teal');
+        btn.classList.add('bg-brand-surface', 'text-slate-300');
+      });
+
+      const activeBtn = document.getElementById(`tab-${grade}`);
+      if (activeBtn) {
+        activeBtn.classList.remove('bg-brand-surface', 'text-slate-300');
+        activeBtn.classList.add('bg-brand-tealLight', 'text-brand-obsidian', 'shadow-glow-teal');
+      }
+
+      const data = curriculumData[grade];
+      const container = document.getElementById('gradeContentCard');
+
+      let topicsHtml = data.topics.map((t, idx) => `
+        <div class="p-4 rounded-2xl bg-brand-surface/70 border border-brand-teal/20">
+          <div class="flex items-center gap-2 mb-1">
+            <span class="w-5 h-5 rounded-full bg-brand-teal/30 text-brand-tealGlow text-xs flex items-center justify-center font-mono font-bold">${idx + 1}</span>
+            <h5 class="text-white font-bold text-sm sm:text-base">${t.name}</h5>
+          </div>
+          <p class="text-slate-400 text-xs sm:text-sm pl-7">${t.desc}</p>
+        </div>
+      `).join('');
+
+      let toolsHtml = data.tools.map(tool => `
+        <span class="px-3 py-1 rounded-lg bg-brand-surfaceLight border border-brand-teal/30 text-brand-tealGlow text-xs font-mono font-semibold">${tool}</span>
+      `).join('');
+
+      container.innerHTML = `
+        <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-6 border-b border-brand-teal/20">
+          <div>
+            <div class="flex items-center gap-2 mb-2">
+              <span class="px-3 py-0.5 rounded-full text-xs font-mono font-bold bg-brand-teal/20 text-brand-tealGlow border border-brand-teal/40">${data.boardBadge}</span>
+            </div>
+            <h3 class="font-display text-2xl sm:text-3xl font-bold text-white">${data.title}</h3>
+            <p class="text-sm text-brand-gold mt-1">${data.tagline}</p>
+          </div>
+          <button onclick="openBookingModal('${data.title}')" class="px-6 py-3 rounded-xl bg-gradient-to-r from-brand-tealGlow to-brand-tealLight text-brand-obsidian font-bold text-xs uppercase tracking-wider hover:brightness-110 shadow-glow-teal transition self-start lg:self-auto">
+            Book Grade ${grade} Trial Class
+          </button>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+          ${topicsHtml}
+        </div>
+
+        <div class="p-5 rounded-2xl bg-brand-obsidian/70 border border-brand-teal/30 flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div>
+            <span class="text-[11px] font-mono text-slate-400 uppercase tracking-wider block">Featured Capstone Project:</span>
+            <span class="text-white font-bold text-sm sm:text-base flex items-center gap-2 mt-0.5">
+              <i class="fa-solid fa-trophy text-brand-gold"></i>
+              ${data.capstone}
+            </span>
+          </div>
+          <div class="flex items-center gap-2 flex-wrap">
+            <span class="text-xs text-slate-400 font-mono">Tools:</span>
+            ${toolsHtml}
+          </div>
+        </div>
+      `;
+    }
+
     function openBookingModal(planName = 'General Counseling') {
       const modal = document.getElementById('bookingModal');
       const subtitle = document.getElementById('modalPlanSubtitle');
@@ -416,10 +1075,58 @@
       document.getElementById('bookingModal')?.classList.add('hidden');
     }
 
+    function toggleWhatsappBalloon() {
+      document.getElementById('whatsappPopupBalloon')?.classList.toggle('hidden');
+    }
+
+    function closeWhatsappBalloon() {
+      document.getElementById('whatsappPopupBalloon')?.classList.add('hidden');
+    }
+
     function toggleMobileMenu() {
       document.getElementById('mobileMenu')?.classList.toggle('hidden');
     }
     document.getElementById('mobileMenuBtn')?.addEventListener('click', toggleMobileMenu);
+
+    function handleEnrollmentSubmit(e) {
+      e.preventDefault();
+      const parentName = document.getElementById('parentName').value.trim();
+      const studentGrade = document.getElementById('studentGrade').value;
+      const studentBoard = document.getElementById('studentBoard').value;
+      const programDuration = document.getElementById('programDuration').value;
+      const parentPhone = document.getElementById('parentPhone').value.trim();
+
+      const message = `*AI Genius K-12 Foundation Inquiry*\n` +
+                      `---------------------------------\n` +
+                      `*Parent Name:* ${parentName}\n` +
+                      `*Contact:* ${parentPhone}\n` +
+                      `*Student:* ${studentGrade} (${studentBoard})\n` +
+                      `*Plan Selected:* ${programDuration}\n` +
+                      `*Source:* nammaweb Website Inquiry\n\n` +
+                      `Please provide the next batch schedule & demo class registration.`;
+
+      const encoded = encodeURIComponent(message);
+      const whatsappUrl = `https://wa.me/917204248002?text=${encoded}`;
+      window.open(whatsappUrl, '_blank');
+      closeBookingModal();
+    }
+
+    function readArticle(articleKey) {
+      const article = blogArticles[articleKey];
+      if (!article) return;
+      document.getElementById('articleTag').innerText = article.tag;
+      document.getElementById('articleTitle').innerText = article.title;
+      document.getElementById('articleBody').innerHTML = article.body;
+      document.getElementById('articleModal')?.classList.remove('hidden');
+    }
+
+    function closeArticleModal() {
+      document.getElementById('articleModal')?.classList.add('hidden');
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      selectGrade(6);
+    });
   </script>
 </body>
 </html>
